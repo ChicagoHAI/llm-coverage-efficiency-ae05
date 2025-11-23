@@ -1,0 +1,38 @@
+idea:
+  title: LLMs increases coverage not efficiency
+  domain: artificial_intelligence
+  hypothesis: 'Large Language Models (LLMs) do not significantly increase task efficiency
+    or improve the quality of outputs, but instead increase the coverage of possible
+    approaches by enabling users to try many more options rapidly. This leads to greater
+    exploration and sensitivity to final choices, and raises the lower bound of output
+    quality in areas where LLMs can match or exceed previous human performance.
+
+    '
+  background:
+    description: 'LLMs likely don''t help you complete tasks that much more efficiently.
+      There''s already plenty of work done about work slop and whether what people
+      are producing with LLMs is better and it largely seems like it isn''t. Instead,
+      LLMs allow you to try a lot more things a lot more rapidly. That in itself is
+      measurable. I also think that there will be two major byproducts from this state
+      of affairs, if it''s true. One is that people will try many more things before
+      deciding on one approach, when assisted by an LLM, resulting  in more sensitivity
+      to final form than previously. If you can have an LLM give you a hundred different
+      titles for your paper, you will play around more (this is in direct opposition
+      to the homogenization thesis). 2. is that the lower bound of what people will
+      do will rise in many areas where an LLM could do something at least as good
+      as a human used to be able to on its own and therefore or to seem unique, you''ll
+      have to try a lot harder.
+
+      '
+  constraints:
+    compute: cpu_only
+    time_limit: 3600
+    budget: 100
+  metadata:
+    source: IdeaHub
+    source_url: https://hypogenic.ai/ideahub/idea/mwXSS6nmzbCzwPsTvS2D
+    idea_id: llms_increases_coverage_not_ef_20251123_113853_958c9343
+    created_at: '2025-11-23T11:38:53.138847'
+    status: submitted
+    github_repo_name: llm-coverage-efficiency-ae05
+    github_repo_url: https://github.com/ChicagoHAI/llm-coverage-efficiency-ae05
