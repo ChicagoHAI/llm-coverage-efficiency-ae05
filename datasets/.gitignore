@@ -1,0 +1,11 @@
+# Exclude all data files (can be large)
+*
+
+# But include documentation and scripts
+!.gitignore
+!README.md
+!**/README.md
+!download_*.py
+!download_*.sh
+!*_samples.json
+!download_instructions.txt

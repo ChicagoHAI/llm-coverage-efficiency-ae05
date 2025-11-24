@@ -1,0 +1,33 @@
+{
+  "created_at": "2025-11-23T18:43:00.543463",
+  "stages": {
+    "resource_finder": {
+      "status": "completed",
+      "started_at": "2025-11-23T18:43:00.544072",
+      "completed_at": "2025-11-23T18:56:46.251062",
+      "success": true,
+      "outputs": {
+        "literature_review": "/data/hypogenicai/workspaces/llm-coverage-efficiency-ae05/literature_review.md",
+        "resources_catalog": "/data/hypogenicai/workspaces/llm-coverage-efficiency-ae05/resources.md",
+        "papers_dir": "/data/hypogenicai/workspaces/llm-coverage-efficiency-ae05/papers",
+        "datasets_dir": "/data/hypogenicai/workspaces/llm-coverage-efficiency-ae05/datasets",
+        "code_dir": "/data/hypogenicai/workspaces/llm-coverage-efficiency-ae05/code"
+      }
+    },
+    "experiment_runner": {
+      "status": "completed",
+      "started_at": "2025-11-23T18:56:46.251361",
+      "completed_at": "2025-11-23T19:23:29.901352",
+      "success": true,
+      "outputs": {
+        "success": true,
+        "return_code": 0,
+        "elapsed_time": 1603.6388952732086,
+        "log_file": "/data/hypogenicai/workspaces/llm-coverage-efficiency-ae05/logs/execution_claude.log"
+      }
+    }
+  },
+  "current_stage": null,
+  "completed": true,
+  "completed_at": "2025-11-23T19:23:29.901969"
+}
